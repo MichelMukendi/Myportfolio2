@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="youtube.css">
+    <script src="https://kit.fontawesome.com/56e2138bc0.js" crossorigin="anonymous"></script>
+    <title>Personal Portfolio</title>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1><span>M</span>ichel <span>M</span>ukendi.</h1>
+                    <h4>Web and <span>Accounting</span></h4>
+                </div>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="greetings">
+                <h1>Hello, I'm <span>Michel Mukendi</span></h1>
+                <p><span class="input-auto"></span></p> 
+            </div>
+    
+        </div>
+    </div>
+
+<!-- ---------------About--------------- -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img id="mumu" src="mumu.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Michel Mukendi, I have a bachelor in Accounting 
+                        from the University of Wisconsin Whitewater <br> and a Certification in Web Delopment from YWEB Career Academy. <br> I am a dedicated Web Developper, I love coding and very motivated to make my customers happy by creating <br> for them beatifull Websites of their dream. </p>
+
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Educations</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>Accounting Bookkeeping</span><br>Accounting Management</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>Accounting Bookkeeping</span><br>Accounting Management</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>Accounting Bookkeeping</span><br>Accounting Management</li>
+                            </ul>
+                        </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+    
+        
+
+        
+<!-- -------------------Services--------------------------------- -->
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>we build websites based on customers designs of their choices,<br> how they want it and whenever they want it done.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>App Development</h2>
+                <p>we build websites based on customers designs of their choices,<br> how they want it and whenever they want it done.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Accounting Services</h2>
+                <p>we build websites based on customers designs of their choices,<br> how they want it and whenever they want it done.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------portfolio-------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="pict of mercedes.jpeg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The social media connect you with the rest of the World.
+                        Download it from play store.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="pict of mercedes.jpeg" alt="">
+                <div class="layer">
+                    <h3> Music App</h3>
+                    <p>The social media connect you with the rest of the World.
+                        Download it from play store.</p>
+                        <a href="/freecodecamp/form/form.html"><i class="fas fa-external-link-alt"></i></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="pict of mercedes.jpeg" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The social media connect you with the rest of the World.
+                        Download it from play store.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="#"class="btn">See more</a>
+    </div>
+
+</div>
+<!-- ---------------contact-------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>michel_mukendi@hotmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+1(608) 209-32-04</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="Document michel resume fake.pdf" download class="btn .btn2">Download CVS</a>
+            </div>
+
+
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email"required>
+
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p><i class="fa-duotone fa-copyright"></i>copyright@michel_mukendi Made with by Tutorial</p>
+        </div>
+    </div>
+</div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+
+
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+
+
+    </script>
+    
+
+    <script src="https://cdn.jsdeliver.net/npm/typed.js@2.0.12"></script>
+
+   <script>
+
+
+    var typed =  new  typed(".input-auto", {
+        strings: ["The Web Developper, and Accounting Expert"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+
+    })
+
+   </script>
+    
+</body>
+</html>
